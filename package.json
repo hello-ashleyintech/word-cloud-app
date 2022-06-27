@@ -1,0 +1,22 @@
+{
+  "name": "word-cloud-app",
+  "version": "1.0.0",
+  "description": "Adding initial Slack Word Cloud App.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.11.3",
+    "blob": "^0.1.0",
+    "dotenv": "^16.0.1",
+    "filereader": "^0.10.3",
+    "node-fetch": "^3.2.6",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
