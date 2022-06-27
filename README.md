@@ -43,3 +43,4 @@ Once the above setup has been completed (or if you've run the app before), you c
 
 
 ## Example Output + Flow
+![word-cloud-demo](https://user-images.githubusercontent.com/12901850/176051279-0fd43668-1a0b-42ef-81a6-bce7e3cf1ca0.gif)
