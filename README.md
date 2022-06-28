@@ -8,8 +8,8 @@ This Slack app will allow users to run a `/word-cloud` command or "Word Cloud" s
 
 * [File Tour](https://github.com/hello-ashleyintech/word-cloud-app#file-tour-)
 * [Run it Locally](https://github.com/hello-ashleyintech/word-cloud-app#run-it-locally-%EF%B8%8F)
-* [How to Use] (https://github.com/hello-ashleyintech/word-cloud-app#how-to-use-)
-* [Example Output + Flow] (https://github.com/hello-ashleyintech/word-cloud-app#example-output--flow)
+* [How to Use](https://github.com/hello-ashleyintech/word-cloud-app#how-to-use-)
+* [Example Output + Flow](https://github.com/hello-ashleyintech/word-cloud-app#example-output--flow)
 
 # File Tour 🚗
 ### 📁 word-cloud-app
