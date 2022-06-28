@@ -70,7 +70,7 @@ Example Commands:
 * To get a word cloud for January 1, 2022 to now, you would run `/word-cloud 2022-01-01`. 
 * To get a word cloud for the last 30 days to now, you would run `/word-cloud`.
 
-## Example Output + Flow
+# Example Output + Flow
 Command Example:
 
 ![word-cloud-demo](https://user-images.githubusercontent.com/12901850/176051279-0fd43668-1a0b-42ef-81a6-bce7e3cf1ca0.gif)
