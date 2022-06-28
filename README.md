@@ -1,8 +1,11 @@
-# Word Cloud App
+# Word Cloud App ☁️
 
 Howdy! 👋 Welcome to the **Word Cloud App** for Slack, built using [Bolt JS](https://github.com/slackapi/bolt-js) and also referencing the project structure from the [Bolt JS Starter Template](https://github.com/slack-samples/bolt-js-starter-template).
 
-This Slack app will allow users to run a `/word-cloud` command in any Slack channel to generate a word cloud reflecting the most commonly used words for a specified date range.
+This Slack app will allow users to run a `/word-cloud` command in any Slack channel with the bot installed to generate a word cloud reflecting the most commonly used words for a specified date range.
+
+### How to Use 💻
+To install the bot, invite it into the desired channel you'd like to run the bot in. Once the bot is installed in the channel, you can call the `/word-cloud` command.
 
 To specify a date range, run `/word-cloud [from YYYY-MM-DD] [to YYYY-MM-DD]`.
 
