@@ -149,7 +149,7 @@ const wordCloudCallback = async ({ command, ack, say, client }) => {
           fontFamily: "sans-serif",
           fontScale: 15,
           scale: "linear",
-          text: channelText, // string of concatenated messages
+          text: channelText,
         };
 
         await axios

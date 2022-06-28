@@ -4,7 +4,7 @@ Howdy! 👋 Welcome to the **Word Cloud App** for Slack, built using [Bolt JS](h
 
 This Slack app will allow users to run a `/word-cloud` command in any Slack channel to generate a word cloud reflecting the most commonly used words for a specified date range.
 
-To specify a date range, run `/word-cloud [YYYY-MM-DD of oldest date] [YYYY-MM-DD of latest date]`.
+To specify a date range, run `/word-cloud [from YYYY-MM-DD] [to YYYY-MM-DD]`.
 
 If no date range is specified, then the bot will automatically query for messages from the last 30 days to the current date. If only one date is specified, the bot will automatically query for messages from that date to the current date.
 
@@ -25,7 +25,7 @@ Example:
 
 # Run it Locally 🏃‍♀️
 ### Prerequisites
-1. Make sure  `npm` installed. To verify this, run `npm -v` in your Terminal.
+1. Make sure you have  `npm` installed. To verify this, run `npm -v` in your Terminal.
 3.  Create an account on [api.slack.com](https://api.slack.com/).
 4.  Follow the first two steps of [Bolt JS Getting Started Guide](https://slack.dev/bolt-js/tutorial/getting-started) to set up an application under your Slack Developer account and generate access tokens. 
 5. Create a `/word-count` slash command by following step #1: Creating a Slash Command [here](https://api.slack.com/interactivity/slash-commands#creating_commands).
@@ -38,6 +38,7 @@ Example:
 4. Run `npm install` in the `word-cloud-app` directory to install all dependencies.
 
 **General Instructions**
+
 Once the above setup has been completed (or if you've run the app before), you can run the application using the following command in the project's root directory:
 ```node app.js```
 
