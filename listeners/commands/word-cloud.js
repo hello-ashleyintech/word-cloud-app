@@ -13,7 +13,7 @@ const wordCloudCallback = async ({ command, ack, say, client }) => {
     const channel = command.channel_id;
 
     await say(
-      `Hi, <@${command.user_name}>! We are generating a word cloud for you from ${textOldestDate} to ${textLatestDate}. Hang tight!`
+      `Hi, <@${command.user_id}>! We are generating a word cloud for you from ${textOldestDate} to ${textLatestDate}. Hang tight!`
     );
 
     // If latest date is not provided, default to today's timestamp
@@ -63,20 +63,20 @@ const wordCloudCallback = async ({ command, ack, say, client }) => {
       } else {
         // Throw error for an invalid date range (ex: oldest date > latest)
         await say(
-          `Sorry, <@${command.user_name}>! We couldn't find any messages in that date range to create a word cloud. Please try again!`
+          `Sorry, <@${command.user_id}>! We couldn't find any messages in that date range to create a word cloud. Please try again!`
         );
       }
     } else {
       // Throw error for an invalid date (ex: date provided in a text format like Jan 01, 2022 rather than MM-DD-YYYY or YYYY-MM-DD)
       await say(
-        `Sorry, <@${command.user_name}>! That is an invalid date range. Please use /word-cloud [YYYY-MM-DD of oldest date] [YYYY-MM-DD of latest date] to specify your range and try again!`
+        `Sorry, <@${command.user_id}>! That is an invalid date range. Please use /word-cloud [YYYY-MM-DD of oldest date] [YYYY-MM-DD of latest date] to specify your range and try again!`
       );
     }
   } catch (error) {
     // Throw error for all other API errors that may occur
     console.error(error);
     await say(
-      `Sorry, <@${command.user_name}>! There was an error. Please try again!`
+      `Sorry, <@${command.user_id}>! There was an error. Please try again!`
     );
   }
 };
